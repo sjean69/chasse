@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="chasse.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="headerStyle">
+
+        <img class="logostyle" src="./Images/logo.webp" width="90" alt="">
+
+        <nav>
+            <a class="astyle" href="accessoires.html" target="_self">Accessoires</a>
+            <a class="astyle" href="Menu.html" target="_self">Menu</a>
+        </nav>
+
+    </header>
+
+
+    <form>
+        <main class="flexbox">
+            <div class="form-block">
+                <h2>Informations personnelles</h2>
+
+                <label for="name">Nom prénom:</label>
+                <input type="text" id="name" name="name" placeholder="entrez votre nom et prenom">
+
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" placeholder="entrez votre ardesse mail">
+
+                <p>Vous me contactez pour :</p>
+                <label for="reponse1"><input type="radio" id="reponse1" name="infos" value="infos">infos</label><br>
+                <label for="reponse2"><input type="radio" id="reponse2" name="infos" value="prendre rdv">prendre
+                    rdv</label><br>
+                <label for="reponse3"><input type="radio" id="reponse3" name="infos" value="visio">visio</label><br>
+            </div>
+
+
+            <div class="form-block">
+                <h2>Message</h2>
+
+                <label for="subject">subject :</label>
+                <input type="text" id="subject" name="subject" placeholder="écrivez votre sujet">
+
+                <label for="message">Message :</label>
+                <textarea id="message" name="message" rows="1" placeholder="entrez votre message"></textarea>
+
+                <p>Vôtre demande concerne :</p>
+                <input type="checkbox" id="achat" name="achat" value="achat">
+                <label for="reponse1">achat</label><br>
+                <input type="checkbox" id="sav" name="sav" value="sav">
+                <label for="reponse2">sav</label><br>
+                <input type="checkbox" id="retour" name="retour" value="retour">
+                <label for="reponse3">retour</label><br>
+            </div>
+
+
+ <div class="flex">
+
+    <button class="hover-button">Cliquez pour Envoyer</button>
+
+</div>
+           
+
+
+        </main>
+    </form>
+
+
+    <footer class="footer centered-list">
+
+
+        <ul class="footerList">
+            <li><a href="site.html" target="_blank" class="lien">Goos'n Duck</a></li>
+            <div class="vertical-line"></div>
+            <li><a href="infos.html" target="_blank" class="lien">Infos</a></li>
+            <div class="vertical-line"></div>
+            <li><a href="contact.html" target="_blank" class="lien">Contact</a></li>
+        </ul>
+
+    </footer>
+
+</html>
