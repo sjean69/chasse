@@ -18,7 +18,7 @@
     padding: 10px;
     text-decoration: none;
     color: rgb(121, 92, 0);
-    
+
 }
 
 
@@ -353,3 +353,18 @@ input[type="submit"] {
     padding-top: 50px;
     padding-bottom: 50px;
 }
+
+@media screen and (max-width: 600px) {
+    .flexbox {
+flex-direction: column;
+    
+    }
+    .form-block {
+        width: 100%;
+       
+        
+    }
+
+}
+
+    
