@@ -3,6 +3,7 @@
     display: flex;
     align-items: center;
     height: 100px;
+    justify-content: space-between;
 }
 
 .logostyle {
@@ -17,7 +18,7 @@
     padding: 10px;
     text-decoration: none;
     color: rgb(121, 92, 0);
-    position
+    
 }
 
 
@@ -270,47 +271,51 @@ input[type="checkbox"] {
     /* Positionner la case à cocher */
     position: relative;
     top: 5px;
-  }
-  
-  input[type="checkbox"]:checked {
-    /* Définir la couleur de fond de la case à cocher cochée */
-    background-color: rgb(112, 160, 0); /* Remplacez par la couleur souhaitée */
-  }
-  
-  label {
-    /* Ajouter un espacement après la case à cocher */
-    margin-left: 5px;
-  }
-
-input[type="radio"] {
-    margin-right: 10px;
-     appearance: none;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  /* Définir la taille du bouton radio */
-  width: 20px;
-  height: 20px;
-  /* Définir la couleur de fond du bouton radio non sélectionné */
-  background-color: #ccc;
-  /* Définir la couleur de bordure du bouton radio */
-  border: 2px solid rgb(131, 63, 0);
-  /* Arrondir les coins du bouton radio */
-  border-radius: 50%;
-  /* Positionner le bouton radio */
-  position: relative;
-  top: 5px;
 }
 
-input[type="radio"]:checked {
-  /* Définir la couleur de fond du bouton radio sélectionné */
-  background-color: rgb(112, 160, 0); /* Remplacez par la couleur souhaitée */
-  /* Définir la couleur de la coche du bouton radio sélectionné */
-  /* Remplacez par la couleur souhaitée */
+input[type="checkbox"]:checked {
+    /* Définir la couleur de fond de la case à cocher cochée */
+    background-color: rgb(112, 160, 0);
+    /* Remplacez par la couleur souhaitée */
 }
 
 label {
-  /* Ajouter un espacement après le bouton radio */
-  margin-left: 5px;
+    /* Ajouter un espacement après la case à cocher */
+    margin-left: 5px;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    /* Définir la taille du bouton radio */
+    width: 20px;
+    height: 20px;
+    /* Définir la couleur de fond du bouton radio non sélectionné */
+    background-color: #ccc;
+    /* Définir la couleur de bordure du bouton radio */
+    border: 2px solid rgb(131, 63, 0);
+    /* Arrondir les coins du bouton radio */
+    border-radius: 50%;
+    /* Positionner le bouton radio */
+    position: relative;
+    top: 5px;
+}
+
+
+
+input[type="radio"]:checked {
+    /* Définir la couleur de fond du bouton radio sélectionné */
+    background-color: rgb(112, 160, 0);
+    /* Remplacez par la couleur souhaitée */
+    /* Définir la couleur de la coche du bouton radio sélectionné */
+    /* Remplacez par la couleur souhaitée */
+}
+
+label {
+    /* Ajouter un espacement après le bouton radio */
+    margin-left: 5px;
 }
 
 
@@ -339,6 +344,7 @@ input[type="submit"] {
 .hover-button:hover {
     background-color: rgb(105, 70, 5);
 }
+
 /*bouton envoyer*/
 .flex {
     display: flex;
